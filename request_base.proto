@@ -1,0 +1,123 @@
+syntax = "proto2";
+package main;
+import "request_header.proto";
+import "comm.proto";
+import "base.proto";
+option go_package = "https://github.com/Saiaioup/saiakoup";
+message Bool
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Bool data = 3;
+}
+
+message Int32
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Int32 data = 3;
+}
+
+message Uint32
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Uint32 data = 3;
+}
+
+message Int64
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Int64 data = 3;
+}
+
+message Uint64
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Uint64 data = 3;
+}
+
+message Double
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Double data = 3;
+}
+
+message Float
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Float data = 3;
+}
+
+message Bytes
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Bytes data = 3;
+}
+
+message String
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.String data = 3;
+}
+
+message Void
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+}
+
+message BoolList
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.BoolList data = 3;
+}
+
+message Int32List
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Int32List data = 3;
+}
+
+message Uint32List
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Uint32List data = 3;
+}
+
+message Int64List
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Int64List data = 3;
+}
+
+message Uint64List
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.Uint64List data = 3;
+}
+
+message DoubleList
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.DoubleList data = 3;
+}
+
+message FloatList
+{
+  required Request.Header header = 1;
+  required Comm.Property property = 2;
+  required MessageType.FloatList data = 3;
+}

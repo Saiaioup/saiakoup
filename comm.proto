@@ -1,0 +1,15 @@
+syntax = "proto2";
+package Comm;
+option go_package = "https://github.com/Saiaioup/saiakoup";
+enum Authority
+{
+  TP = 0;
+  PC = 1;
+  TP_SIMMULATOR = 2;
+  ADMINISTRATOR = 3;
+};
+
+message Property
+{
+  required Authority authority = 1;
+};

@@ -1,0 +1,84 @@
+syntax = "proto2";
+package MessageType;
+option go_package = "https://github.com/Saiaioup/saiakoup";
+
+message Bool
+{
+  required bool data = 1;
+}
+
+message Int32
+{
+  required int32 data = 1;
+}
+
+message Uint32
+{
+  required uint32 data = 1;
+}
+
+message Int64
+{
+  required int64 data = 1;
+}
+
+message Uint64
+{
+  required uint64 data = 1;
+}
+
+message Double
+{
+  required double data = 1;
+}
+
+message Float
+{
+  required float data = 1;
+}
+
+message Bytes
+{
+  required bytes data = 1;
+}
+
+message String
+{
+  required string data = 1;
+}
+
+message BoolList
+{
+  repeated bool data = 1;
+}
+
+message Int32List
+{
+  repeated int32 data = 1;
+}
+
+message Uint32List
+{
+  repeated uint32 data = 1;
+}
+
+message Int64List
+{
+  repeated int64 data = 1;
+}
+
+message Uint64List
+{
+  repeated uint64 data = 1;
+}
+
+message FloatList
+{
+  repeated float data = 1;
+}
+
+message DoubleList
+{
+  repeated double data = 1;
+}
+
